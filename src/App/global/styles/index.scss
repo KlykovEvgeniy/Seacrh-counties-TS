@@ -1,0 +1,20 @@
+@import './normalized.scss';
+@import './variebals.scss';
+
+body[theme='dark']{
+    background-color: $bgdark;
+
+    .header{
+        background-color: $bgheaderdark;
+    }
+}
+
+body[theme='light'],
+body
+{
+    background-color: $bgwhite;
+
+    .header{
+        background-color: $bgheader;
+    }
+}
